@@ -15,6 +15,7 @@ public class lnklst {
     }
     public boolean isEmpty()
     {
+
         return stack.isEmpty();
     }
     public class1 pop()
@@ -27,6 +28,7 @@ public class lnklst {
         }
         public void printStack()
 {
+
     ListIterator<class1> iterator= stack.listIterator();
     while (iterator.hasNext())
     {

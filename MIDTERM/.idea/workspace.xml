@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9136eccb-aa30-445c-b7b3-a4e48fd62577" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/card.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/class1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/lnklst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/PLayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/Que.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quiz2/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz2/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quiz2/src/com/gdstruc/module2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz2/src/com/gdstruc/module2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quiz2/src/com/gdstruc/module2/linklist.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz2/src/com/gdstruc/module2/linklist.java" afterDir="false" />
+    <list default="true" id="9136eccb-aa30-445c-b7b3-a4e48fd62577" name="Changes" comment="Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/lnklst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/lnklst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,5 +122,15 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.util.NoSuchElementException" package="java.util" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,10 +4,11 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	// write your code here
+
+        // It works but, it will brick whern there are not enough cards to give but i couldnt figure it out before the deaadline.
        lnklst hand = new lnklst();
         lnklst deck = new lnklst( );
-        deck pile = new deck( 30);
+        lnklst pile = new lnklst( );
 
 
         hand.push(new class1(1,"Blaster Blade"));
@@ -51,16 +52,37 @@ public class Main {
             System.out.println("Round " + i);
 if(rand2 == 1)
 {
-
+for (rand =1;rand < 5; rand++) {
     hand.push(deck.pop());
+    if (deck.isEmpty())
+    {
+System.out.println("the deck is empty.");
+    }
+}
 }
 
-   if (rand2 == 2)
-   { pile.push(hand.pop());}
+   if (rand2 == 2) {
+       for (rand =1;rand < 5; rand++) {
+           hand.push(pile.pop());
+           if (hand.isEmpty())
+           {
+
+               System.out.println("the hand is empty.");
+           }
+
+       }
+   }
 
        if (rand2== 3)
 
-            { hand.push(pile.pop());}
+            {
+                for (rand= 1;rand < 5; rand++) {
+                    pile.push(hand.pop());
+                    if (pile.isEmpty())
+                    {
+                        System.out.println("the deck is empty.");
+                    }
+                }}
 
 
         System.out.println("Here is what is in your hand");
@@ -72,7 +94,7 @@ if(rand2 == 1)
 deck.printStack();
          System.out.println("Here is what is in your drop zone");
             scanner.nextLine();
-pile.printstack();
+pile.printStack();
 
         }
 

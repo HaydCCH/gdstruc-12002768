@@ -1,10 +1,11 @@
 package com.gdstruc.midterm;
-
+import java.util.Random;
 import java.util.EmptyStackException;
 
 public class deck {
     private class1[] stack;
     private int top;
+
     public deck(int cpacity)
     {
         stack = new class1[cpacity];
@@ -14,6 +15,7 @@ public class deck {
         if (top == stack.length)
         {
             class1[] newstack = new class1[2 * stack.length];
+
             System.arraycopy(stack, 0,newstack, 0,stack.length);
             stack = newstack;
         }

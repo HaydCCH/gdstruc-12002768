@@ -2,36 +2,36 @@ package com.gdstruc.midterm;
 import java.util.Random;
 import java.util.EmptyStackException;
 
-public class deck {
-    private class1[] stack;
+public class cardstack {
+    private card[] stack;
     private int top;
 
-    public deck(int cpacity)
+    public cardstack(int cpacity)
     {
-        stack = new class1[cpacity];
+        stack = new card[cpacity];
     }
-    public void push(class1 player)
+    public void push(card player)
     {
         if (top == stack.length)
         {
-            class1[] newstack = new class1[2 * stack.length];
+            card[] newstack = new card[2 * stack.length];
 
             System.arraycopy(stack, 0,newstack, 0,stack.length);
             stack = newstack;
         }
         stack[top++] = player;
     }
-    public class1 pop()
+    public card pop()
     {
 if(isEmpty())
 {
     throw new EmptyStackException();
 }
-class1 poppedPlayer = stack[--top];
+card poppedPlayer = stack[--top];
 stack[top] = null;
 return poppedPlayer;
     }
-    public class1 peek()
+    public card peek()
     {
         if(isEmpty())
         {

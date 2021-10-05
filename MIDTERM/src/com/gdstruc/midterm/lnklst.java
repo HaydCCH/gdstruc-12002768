@@ -4,12 +4,12 @@ import java.util.LinkedList;
 import java.util.ListIterator;
 
 public class lnklst {
-    private LinkedList<class1> stack;
+    private LinkedList<card> stack;
     public lnklst()
     {
-       stack = new LinkedList<class1>() ;
+       stack = new LinkedList<card>() ;
     }
-    public void push(class1 player)
+    public void push(card player)
     {
         stack.push(player);
     }
@@ -18,18 +18,18 @@ public class lnklst {
 
         return stack.isEmpty();
     }
-    public class1 pop()
+    public card pop()
     {
       return stack.pop();
     }
-        public class1 peek()
+        public card peek()
         {
             return stack.peek();
         }
         public void printStack()
 {
 
-    ListIterator<class1> iterator= stack.listIterator();
+    ListIterator<card> iterator= stack.listIterator();
     while (iterator.hasNext())
     {
         System.out.println(iterator.next());

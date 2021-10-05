@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9136eccb-aa30-445c-b7b3-a4e48fd62577" name="Changes" comment="Done">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/card.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/class1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/cardstack.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gdstruc/midterm/lnklst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/midterm/lnklst.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,6 +110,14 @@
       <option name="presentableId" value="Default" />
       <updated>1633179405558</updated>
     </task>
+    <task id="LOCAL-00001" summary="Done">
+      <created>1633474900053</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1633474900054</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -122,6 +131,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

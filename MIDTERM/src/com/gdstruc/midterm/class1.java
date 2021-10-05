@@ -1,17 +1,19 @@
-package com.gdstruc.module2;
+package com.gdstruc.midterm;
 
 import java.util.Objects;
 
-public class linklist {
+public class class1 {
+
+
 
     private int id;
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof linklist)) return false;
-        linklist linklist = (linklist) o;
-        return id == linklist.id && level == linklist.level && name.equals(linklist.name);
+        if (!(o instanceof class1)) return false;
+        class1 pLayer = (class1) o;
+        return id == pLayer.id && level == pLayer.level && name.equals(pLayer.name);
     }
 
     @Override
@@ -19,10 +21,10 @@ public class linklist {
         return Objects.hash(id, name, level);
     }
 
-    public linklist(int id, String name, int level) {
+    public class1(int id, String name) {
         this.id = id;
         this.name = name;
-        this.level= level;
+
     }
 
     private String name;
@@ -57,8 +59,9 @@ public class linklist {
     public String toString() {
         return "linklist{" +
                 "id=" + id +
-                ", name='" + name + '\'' +
-                ", level=" + level +
+                ", name='" + name + '\''  +
                 '}';
     }
 }
+
+

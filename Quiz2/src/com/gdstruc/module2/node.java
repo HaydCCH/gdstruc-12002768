@@ -23,4 +23,6 @@ public class node {
     public void setNextplayer(node nextplayer) {
         this.nextplayer = nextplayer;
     }
+
+
 }

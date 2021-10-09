@@ -28,5 +28,6 @@ System.out.println("Contain");
         System.out.println();
         System.out.println("Removed front!:");
         newlinkedlist.printList();
+
     }
 }

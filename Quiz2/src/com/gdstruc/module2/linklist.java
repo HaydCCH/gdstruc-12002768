@@ -4,6 +4,7 @@ import java.util.Objects;
 
 public class linklist {
 
+
     private int id;
 
     @Override

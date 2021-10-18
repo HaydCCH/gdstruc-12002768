@@ -88,7 +88,7 @@ for (i =1; i <=10;i++)
     int rand = random.nextInt(7)+1;
 
 
-for (rand = 1; rand <7;rand++)
+for (rand = 5; rand <7;rand++)
 {
     System.out.println("The after removing"+queue.remove());
 

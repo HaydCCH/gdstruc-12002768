@@ -6,7 +6,7 @@ public class Main {
 
     public static void main(String[] args) {
 	// write your code here
-Que queue = new Que(50);
+Que queue = new Que(70);
         queue.add(new PLayer(1, "Gina ",12));
         queue.add(new PLayer(2,"Jake",20));
         queue.add(new PLayer(3, "Rosa",25));

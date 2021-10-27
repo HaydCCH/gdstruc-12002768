@@ -2,9 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9136eccb-aa30-445c-b7b3-a4e48fd62577" name="Changes" comment="Done">
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/src/PLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz 3/src/Que.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/Quiz4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/src/com/gdstruc/module5/Hashtable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/src/com/gdstruc/module5/PLayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quiz4/src/com/gdstruc/module5/storedplayer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/Que.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Quiz3/src/com/gdstruc/module3/Que.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
